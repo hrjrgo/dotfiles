@@ -73,7 +73,7 @@ done
 echo ""
 echo "-> Install main packages"
 
-packagesPacman=(
+packagesYay=(
     "pacman-contrib"
     "alacritty"
     "wezterm"
@@ -106,10 +106,7 @@ packagesPacman=(
     "xautolock" 
     "blueman"
     "nautilus"
-);
-
-packagesYay=(
-    "brave-bin" 
+    # "brave-bin" 
     "pfetch" 
     "bibata-cursor-theme" 
     "trizen"

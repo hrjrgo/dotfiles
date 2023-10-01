@@ -76,6 +76,17 @@
         "on-click": "alacritty -e ~/dotfiles/scripts/installupdates.sh",
         "tooltip": false
     },
+      // Updates Count
+      "custom/agg": {
+        "format": "  {}",
+        "tooltip-format": "{}",
+        "escape": true,
+        "return-type": "json",       
+        "exec": "~/dotfiles/scripts/agg.sh",
+        "restart-interval": 60,
+        "on-click": "",
+        "tooltip": true
+    },
 
     // Filemanager Launcher
     "custom/filemanager": {
@@ -171,7 +182,7 @@
     "disk": {
         "interval": 30,
         "format": "   {percentage_used}% ",
-        "path": "/"
+        "path": "/home"
     }, 
     
     // Network

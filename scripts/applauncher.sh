@@ -8,5 +8,5 @@
 #  
 # by Stephan Raabe (2023) 
 # ----------------------------------------------------- 
-
+killall rofi 
 rofi -show drun -l 10

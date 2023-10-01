@@ -79,6 +79,13 @@ _installSymLink starship ~/.config/starship.toml ~/dotfiles/starship/starship.to
 _installSymLink rofi ~/.config/rofi ~/dotfiles/rofi/ ~/.config
 _installSymLink dunst ~/.config/dunst ~/dotfiles/dunst/ ~/.config
 _installSymLink wal ~/.config/wal ~/dotfiles/wal/ ~/.config
+_installSymLink kavantum ~/.config/kavantum ~/dotfiles/kavantum/ ~/.config
+_installSymLink nwg-look ~/.config/nwg-look ~/dotfiles/nwg-look/ ~/.config
+_installSymLink qt5ct ~/.config/qt5ct ~/dotfiles/qt5ct/ ~/.config
+_installSymLink thunar ~/.config/thunar ~/dotfiles/thunar/ ~/.config
+_installSymLink viewnior ~/.config/viewnior ~/dotfiles/viewnior/ ~/.config
+_installSymLink xfce4 ~/.config/xfce4 ~/dotfiles/xfce4/ ~/.config
+
 wal -i screenshots/
 echo "Pywal templates initiated!"
 echo ""

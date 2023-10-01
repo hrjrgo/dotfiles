@@ -49,21 +49,21 @@ window#waybar {
 }
 
 #workspaces button {
-    padding: 0px 10px;
+    padding: 0px 8px;
     margin: 0px 3px;
     border-radius: 12px;
     color: @color11;
     background-color: @color11;
     transition: all 0.3s ease-in-out;
     opacity:0.4;
-    font-size:13px;
+    font-size:10px;
 }
 
 #workspaces button.active {
     color: #cdd6f4;
     background-color: @color11;
     border-radius: 10px;
-    min-width: 30px;
+    min-width: 25px;
     background-size: 400% 400%;
     transition: all 0.3s ease-in-out;
     opacity:1.0;
@@ -206,6 +206,24 @@ window#waybar.empty #window {
 #custom-updates.red {
     background-color: #dc2f2f;
     color: #ffffff;
+}
+
+/* -----------------------------------------------------
+ * Custom Chapters
+ * ----------------------------------------------------- */
+
+#custom-agg {
+    background-color: #FFFFFF;
+    font-size: 16px;
+    color: @background;
+    border-radius: 12px;
+    padding: 2px 10px 0px 10px;
+    margin: 5px 15px 5px 0px;
+    opacity:0.8;
+}
+
+#custom-agg.green {
+    background-color: #FFFFFF;
 }
 
 /* -----------------------------------------------------
